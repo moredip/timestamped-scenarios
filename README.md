@@ -17,3 +17,7 @@ and then simply ask cucumber to use the custom formatters with
 You can also configure cucumber to use the formatters in your rake cucumber task, or by using a cucumber.yml config file. Check out the cucumber.yml file in the example directory to see how this is done.
 
 You can create additional Formatter subclasses as required by using the `Timestamped::AddsTimestamp#formatter_with_timestamped_scenario_names` method.
+
+Credits
+==
+Many thanks to Caleb Clausen for his metaprogramming wizardry, which cleaned up my implementation of `AddsTimestamp` greatly.
