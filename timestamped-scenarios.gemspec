@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Pete Hodgson"]
   s.email       = ["gems@thepete.net"]
   s.homepage    = "http://rubygems.org/gems/timestamped-scenarios"
-  s.summary     = %q{A custom cucumber formatter which appends a timestamp to each scenario's name as it is executed}
-  s.description = %q{A custom cucumber formatter which appends a timestamp to each scenario's name as it is executed}
+  s.summary     = %q{custom cucumber formatters which append timestamps to each scenario's name as it is executed}
+  s.description = %q{custom cucumber formatters which append timestamps to each scenario's name as it is executed}
 
   s.add_dependency "cucumber"
 
