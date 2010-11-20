@@ -4,13 +4,13 @@ require "timestamped-scenarios/version"
 
 Gem::Specification.new do |s|
   s.name        = "timestamped-scenarios"
-  s.version     = Timestamped::Scenarios::VERSION
+  s.version     = Timestamped::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Pete Hodgson"]
+  s.email       = ["gems@thepete.net"]
   s.homepage    = "http://rubygems.org/gems/timestamped-scenarios"
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{A custom cucumber formatter which appends a timestamp to each scenario's name as it is executed}
+  s.description = %q{A custom cucumber formatter which appends a timestamp to each scenario's name as it is executed}
 
   s.rubyforge_project = "timestamped-scenarios"
 

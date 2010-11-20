@@ -1,5 +1,3 @@
 module Timestamped
-  module Scenarios
-    # Your code goes here...
-  end
+  # Your code goes here...
 end
