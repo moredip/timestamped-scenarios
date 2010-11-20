@@ -1,0 +1,1 @@
+default: --format 'Timestamped::HtmlFormatter' --out cuke.html --format 'Timestamped::PrettyFormatter' the.feature
