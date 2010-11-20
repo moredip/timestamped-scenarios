@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "timestamped-scenarios/version"
+require "timestamped/version"
 
 Gem::Specification.new do |s|
   s.name        = "timestamped-scenarios"
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{A custom cucumber formatter which appends a timestamp to each scenario's name as it is executed}
   s.description = %q{A custom cucumber formatter which appends a timestamp to each scenario's name as it is executed}
 
-  s.rubyforge_project = "timestamped-scenarios"
+  s.add_dependency "cucumber"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -1,3 +1,0 @@
-module Timestamped
-  # Your code goes here...
-end
